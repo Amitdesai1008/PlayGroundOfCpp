@@ -1,0 +1,82 @@
+﻿  WorkOut.cpp
+c:\playground_cpp\imp\playgroundofcpp\workout\workout\workout.cpp : warning C4335: Mac file format detected: please convert the source file to either DOS or UNIX format
+c:\playground_cpp\imp\playgroundofcpp\workout\workout\workout.cpp(1): error C2018: unknown character '0xe'
+c:\playground_cpp\imp\playgroundofcpp\workout\workout\workout.cpp(1): error C2018: unknown character '0x13'
+c:\playground_cpp\imp\playgroundofcpp\workout\workout\workout.cpp(1): error C2059: syntax error: 'bad suffix on number'
+c:\playground_cpp\imp\playgroundofcpp\workout\workout\workout.cpp(1): error C3688: invalid literal suffix 'è'; literal operator or literal operator template 'operator ""è' not found
+c:\playground_cpp\imp\playgroundofcpp\workout\workout\workout.cpp(1): error C2018: unknown character '0xf'
+c:\playground_cpp\imp\playgroundofcpp\workout\workout\workout.cpp(1): error C2018: unknown character '0x2'
+c:\playground_cpp\imp\playgroundofcpp\workout\workout\workout.cpp(1): error C2146: syntax error: missing ')' before identifier 'Uii'
+c:\playground_cpp\imp\playgroundofcpp\workout\workout\workout.cpp(1): error C3861: 'ç': identifier not found
+c:\playground_cpp\imp\playgroundofcpp\workout\workout\workout.cpp(1): error C2018: unknown character '0x10'
+c:\playground_cpp\imp\playgroundofcpp\workout\workout\workout.cpp(1): error C2018: unknown character '0x40'
+c:\playground_cpp\imp\playgroundofcpp\workout\workout\workout.cpp(1): error C2018: unknown character '0x19'
+c:\playground_cpp\imp\playgroundofcpp\workout\workout\workout.cpp(1): error C3873: '0x2020': this character is not allowed as a first character of an identifier
+c:\playground_cpp\imp\playgroundofcpp\workout\workout\workout.cpp(1): error C3872: '0x2039': this character is not allowed in an identifier
+c:\playground_cpp\imp\playgroundofcpp\workout\workout\workout.cpp(1): error C2018: unknown character '0x1'
+c:\playground_cpp\imp\playgroundofcpp\workout\workout\workout.cpp(1): error C2018: unknown character '0x16'
+c:\playground_cpp\imp\playgroundofcpp\workout\workout\workout.cpp(1): error C3872: '0x0': this character is not allowed in an identifier
+c:\playground_cpp\imp\playgroundofcpp\workout\workout\workout.cpp(1): error C2018: unknown character '0x3'
+c:\playground_cpp\imp\playgroundofcpp\workout\workout\workout.cpp(1): error C2143: syntax error: missing ';' before 'user-defined literal'
+c:\playground_cpp\imp\playgroundofcpp\workout\workout\workout.cpp(1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\playground_cpp\imp\playgroundofcpp\workout\workout\workout.cpp(1): error C2086: 'int ùqØ‹Ô': redefinition
+  c:\playground_cpp\imp\playgroundofcpp\workout\workout\workout.cpp(1): note: see declaration of 'ùqØ‹Ô'
+c:\playground_cpp\imp\playgroundofcpp\workout\workout\workout.cpp(1): error C2146: syntax error: missing ';' before identifier 'SCUSER'
+c:\playground_cpp\imp\playgroundofcpp\workout\workout\workout.cpp(2): error C2059: syntax error: '}'
+c:\playground_cpp\imp\playgroundofcpp\workout\workout\workout.cpp(2): error C2143: syntax error: missing ';' before '}'
+c:\playground_cpp\imp\playgroundofcpp\workout\workout\workout.cpp(4): error C2143: syntax error: missing ';' before '}'
+c:\playground_cpp\imp\playgroundofcpp\workout\workout\workout.cpp(4): error C2059: syntax error: '}'
+c:\playground_cpp\imp\playgroundofcpp\workout\workout\workout.cpp(7): error C2504: 'Container': base class undefined
+c:\playground_cpp\imp\playgroundofcpp\workout\workout\workout.cpp(10): error C2059: syntax error: 'bad suffix on number'
+c:\playground_cpp\imp\playgroundofcpp\workout\workout\workout.cpp(10): error C2018: unknown character '0x2'
+c:\playground_cpp\imp\playgroundofcpp\workout\workout\workout.cpp(10): error C2065: 'PI': undeclared identifier
+c:\playground_cpp\imp\playgroundofcpp\workout\workout\workout.cpp(10): error C2065: 'rad': undeclared identifier
+c:\playground_cpp\imp\playgroundofcpp\workout\workout\workout.cpp(10): error C2146: syntax error: missing ')' before identifier 'us'
+c:\playground_cpp\imp\playgroundofcpp\workout\workout\workout.cpp(10): error C3861: 'pow': identifier not found
+c:\playground_cpp\imp\playgroundofcpp\workout\workout\workout.cpp(10): error C2059: syntax error: ')'
+c:\playground_cpp\imp\playgroundofcpp\workout\workout\workout.cpp(16): error C2504: 'Container': base class undefined
+c:\playground_cpp\imp\playgroundofcpp\workout\workout\workout.cpp(19): error C2059: syntax error: 'bad suffix on number'
+c:\playground_cpp\imp\playgroundofcpp\workout\workout\workout.cpp(19): error C2065: 'PI': undeclared identifier
+c:\playground_cpp\imp\playgroundofcpp\workout\workout\workout.cpp(19): error C2065: 'radius': undeclared identifier
+c:\playground_cpp\imp\playgroundofcpp\workout\workout\workout.cpp(19): error C3861: 'pow': identifier not found
+c:\playground_cpp\imp\playgroundofcpp\workout\workout\workout.cpp(19): error C2065: 'height': undeclared identifier
+c:\playground_cpp\imp\playgroundofcpp\workout\workout\workout.cpp(26): error C2504: 'exception': base class undefined
+c:\playground_cpp\imp\playgroundofcpp\workout\workout\workout.cpp(29): error C2059: syntax error: 'bad suffix on number'
+c:\playground_cpp\imp\playgroundofcpp\workout\workout\workout.cpp(29): error C2614: 'MyException': illegal member initialization: 'exception' is not a base or member
+c:\playground_cpp\imp\playgroundofcpp\workout\workout\workout.cpp(41): error C2065: 'Container': undeclared identifier
+c:\playground_cpp\imp\playgroundofcpp\workout\workout\workout.cpp(41): error C2065: 'ptrContainer1': undeclared identifier
+c:\playground_cpp\imp\playgroundofcpp\workout\workout\workout.cpp(42): error C2065: 'Container': undeclared identifier
+c:\playground_cpp\imp\playgroundofcpp\workout\workout\workout.cpp(42): error C2065: 'ptrContainer2': undeclared identifier
+c:\playground_cpp\imp\playgroundofcpp\workout\workout\workout.cpp(43): error C2065: 'ptrContainer1': undeclared identifier
+c:\playground_cpp\imp\playgroundofcpp\workout\workout\workout.cpp(43): error C2227: left of '->set_volume' must point to class/struct/union/generic type
+  c:\playground_cpp\imp\playgroundofcpp\workout\workout\workout.cpp(43): note: type is 'unknown-type'
+c:\playground_cpp\imp\playgroundofcpp\workout\workout\workout.cpp(43): error C2059: syntax error: 'bad suffix on number'
+c:\playground_cpp\imp\playgroundofcpp\workout\workout\workout.cpp(44): error C2065: 'ptrContainer2': undeclared identifier
+c:\playground_cpp\imp\playgroundofcpp\workout\workout\workout.cpp(44): error C2227: left of '->set_volume' must point to class/struct/union/generic type
+  c:\playground_cpp\imp\playgroundofcpp\workout\workout\workout.cpp(44): note: type is 'unknown-type'
+c:\playground_cpp\imp\playgroundofcpp\workout\workout\workout.cpp(44): error C2018: unknown character '0x2'
+c:\playground_cpp\imp\playgroundofcpp\workout\workout\workout.cpp(44): error C2059: syntax error: 'bad suffix on number'
+c:\playground_cpp\imp\playgroundofcpp\workout\workout\workout.cpp(45): error C2065: 'cout': undeclared identifier
+c:\playground_cpp\imp\playgroundofcpp\workout\workout\workout.cpp(45): error C2065: 'endl': undeclared identifier
+c:\playground_cpp\imp\playgroundofcpp\workout\workout\workout.cpp(46): error C2065: 'cout': undeclared identifier
+c:\playground_cpp\imp\playgroundofcpp\workout\workout\workout.cpp(46): error C2065: 'endl': undeclared identifier
+c:\playground_cpp\imp\playgroundofcpp\workout\workout\workout.cpp(50): error C2065: 'cout': undeclared identifier
+c:\playground_cpp\imp\playgroundofcpp\workout\workout\workout.cpp(50): error C2059: syntax error: 'bad suffix on number'
+c:\playground_cpp\imp\playgroundofcpp\workout\workout\workout.cpp(52): error C2039: 'bad_alloc': is not a member of 'std'
+  c:\playground_cpp\imp\playgroundofcpp\workout\workout\predefined c++ types (compiler internal)(238): note: see declaration of 'std'
+c:\playground_cpp\imp\playgroundofcpp\workout\workout\workout.cpp(52): error C2061: syntax error: identifier 'bad_alloc'
+c:\playground_cpp\imp\playgroundofcpp\workout\workout\workout.cpp(52): error C2310: catch handlers must specify one type
+c:\playground_cpp\imp\playgroundofcpp\workout\workout\workout.cpp(54): error C2039: 'cerr': is not a member of 'std'
+  c:\playground_cpp\imp\playgroundofcpp\workout\workout\predefined c++ types (compiler internal)(238): note: see declaration of 'std'
+c:\playground_cpp\imp\playgroundofcpp\workout\workout\workout.cpp(54): error C2065: 'cerr': undeclared identifier
+c:\playground_cpp\imp\playgroundofcpp\workout\workout\workout.cpp(54): error C2018: unknown character '0x2'
+c:\playground_cpp\imp\playgroundofcpp\workout\workout\workout.cpp(54): error C2065: 'ba': undeclared identifier
+c:\playground_cpp\imp\playgroundofcpp\workout\workout\workout.cpp(54): error C2228: left of '.what' must have class/struct/union
+  c:\playground_cpp\imp\playgroundofcpp\workout\workout\workout.cpp(54): note: type is 'unknown-type'
+c:\playground_cpp\imp\playgroundofcpp\workout\workout\workout.cpp(56): error C2061: syntax error: identifier 'exception'
+c:\playground_cpp\imp\playgroundofcpp\workout\workout\workout.cpp(56): error C2310: catch handlers must specify one type
+c:\playground_cpp\imp\playgroundofcpp\workout\workout\workout.cpp(57): error C2065: 'cout': undeclared identifier
+c:\playground_cpp\imp\playgroundofcpp\workout\workout\workout.cpp(57): error C2065: 'Ex': undeclared identifier
+c:\playground_cpp\imp\playgroundofcpp\workout\workout\workout.cpp(57): error C2228: left of '.what' must have class/struct/union
+  c:\playground_cpp\imp\playgroundofcpp\workout\workout\workout.cpp(57): note: type is 'unknown-type'
+c:\playground_cpp\imp\playgroundofcpp\workout\workout\workout.cpp(59): error C2059: syntax error: 'bad suffix on number'

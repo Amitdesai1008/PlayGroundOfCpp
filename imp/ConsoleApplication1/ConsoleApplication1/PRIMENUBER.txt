@@ -1,0 +1,59 @@
+// ConsoleApplication1.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+
+#include <math.h>
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <assert.h>
+#include <limits.h>
+#include <stdbool.h>
+#include <iostream>
+#include<sstream>
+
+
+bool isprime(int num,int a[],int count) {
+	for (int i = 0; i < count; i++)
+	{
+		if (num % a[i] == 0)
+			return false;
+	}
+	return true;
+}
+
+using namespace std;
+
+int main()
+{
+	cout << "enter range :" << endl;
+	int sPoint,ePoint,sizeOfArry;
+	cin >> sPoint >> ePoint;
+	sizeOfArry = ePoint - sPoint;
+	int* prmeList = new int[sizeOfArry];
+	int c(0);
+	//prmeList[0] = 1;
+
+
+
+	for (int i = 2; i <= sizeOfArry; i++) {
+
+		if (isprime(i, prmeList, c)) {
+			prmeList[c++] = i;
+		}
+		
+	}
+
+	cout << c << endl;
+
+
+	for (int i =0;i<c;i++ )
+	{
+			cout << prmeList[i] << ",";
+	}
+	cout << endl;
+
+	delete[] prmeList;
+	return 0;
+}

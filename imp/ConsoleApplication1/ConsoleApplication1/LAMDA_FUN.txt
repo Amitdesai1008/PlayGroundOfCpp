@@ -1,0 +1,76 @@
+// ConsoleApplication1.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+
+#include <math.h>
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <assert.h>
+#include <limits.h>
+#include <stdbool.h>
+#include <iostream>
+#include<sstream>
+#include <functional>
+
+
+
+using namespace std;
+
+int main()
+{
+	cout << "JINA" << endl;
+	auto lm = [](int val){
+		cout << "IN LAMDA : " << val << endl;
+	};
+	lm(1000);
+	function<void(int)> lmFun = [](int val) ->void {
+		cout << "IN LAMDA2 : " << val << endl;
+	};
+	lmFun(10);
+
+	void(*lmFunPtr)(int) = [](int val)->void {
+		cout << "IN LAMDA3 : " << val << endl;
+	};
+	lmFunPtr(20);
+
+	function<int(int, string)> lmWithReturn = [](int val, string str)->int {
+		cout << "IN LAMDA4 : " << val <<"	"<< str <<endl;
+		return val + 5;
+	};
+
+	cout << lmWithReturn(30, "amit") << endl;;
+
+	int(*lmPtrWithReturn)(int, string) = [](int val, string str)->int {
+		cout << "IN LAMDA5 : " << val << "	" << str << endl;
+		return val + 10;
+	};
+	cout << lmPtrWithReturn(30, "amit") << endl;;
+
+
+	int x(10), y(20);
+	string st("AMIT");
+
+	auto fn1 = [x,y]() {
+		cout << x << y << endl;
+	};
+	fn1();
+	auto fn2 = [x, st]() {
+		cout << x << st << endl;
+	};
+	fn2();
+
+	auto fn3 = [=]() {
+		cout << x << y <<st<< endl;
+	};
+	fn3();
+
+	auto fn4 = [&]() {
+		cout << x++ << y++ << endl;
+	};
+	fn4();
+	cout << x<< y << endl;
+
+	return 0;
+}

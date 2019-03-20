@@ -1,0 +1,7 @@
+﻿  Virtual_Keyword_Accessing_Private_Method_of_Derived_class.cpp
+c:\playground_cpp\imp\playgroundofcpp\learnithard\virtual_keyword_accessing_private_method_of_derived_class\virtual_keyword_accessing_private_method_of_derived_class.cpp(36): error C2248: 'A::show': cannot access private member declared in class 'A'
+  c:\playground_cpp\imp\playgroundofcpp\learnithard\virtual_keyword_accessing_private_method_of_derived_class\virtual_keyword_accessing_private_method_of_derived_class.cpp(11): note: see declaration of 'A::show'
+  c:\playground_cpp\imp\playgroundofcpp\learnithard\virtual_keyword_accessing_private_method_of_derived_class\virtual_keyword_accessing_private_method_of_derived_class.cpp(7): note: see declaration of 'A'
+c:\playground_cpp\imp\playgroundofcpp\learnithard\virtual_keyword_accessing_private_method_of_derived_class\virtual_keyword_accessing_private_method_of_derived_class.cpp(37): error C2248: 'A::dp': cannot access private member declared in class 'A'
+  c:\playground_cpp\imp\playgroundofcpp\learnithard\virtual_keyword_accessing_private_method_of_derived_class\virtual_keyword_accessing_private_method_of_derived_class.cpp(10): note: see declaration of 'A::dp'
+  c:\playground_cpp\imp\playgroundofcpp\learnithard\virtual_keyword_accessing_private_method_of_derived_class\virtual_keyword_accessing_private_method_of_derived_class.cpp(7): note: see declaration of 'A'

@@ -1,0 +1,46 @@
+// ConsoleApplication1.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+
+#include <math.h>
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <assert.h>
+#include <limits.h>
+#include <stdbool.h>
+#include <iostream>
+#include<sstream>
+#include <functional>
+#include <memory>
+
+
+
+using namespace std;
+
+int digCount(int val) {
+	int count(0);
+	for (; val > 0; val = val / 10) {//if (val != 0) {
+		count++;
+	}
+	return count;
+}
+
+string isArmstrong(int val, int count) {
+	int sumAll(0), tempval = val;
+
+	for (; val > 0; val = val / 10) {//if (val != 0) {
+		sumAll = sumAll + pow((val % 10), count);
+	}
+	return (sumAll == tempval) ? "True" : "False";
+}
+
+int main()
+{
+	int val;
+	cin >> val;
+
+	cout << isArmstrong(val, digCount(val));
+	return 0;
+}
